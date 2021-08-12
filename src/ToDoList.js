@@ -26,7 +26,7 @@ function ToDoList() {
             <form className='form' onSubmit={handleSubmit}>
 
             <div className='form-control'>
-                <label htmlFor="itemName"> Name :</label>
+                <label htmlFor="itemName"> ITEM :</label>
                 <input type="text" id="itemName" name="itemName" value={itemName} onChange={(e) => setItemName(e.target.value)}></input>
             </div>
 
